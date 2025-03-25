@@ -1,0 +1,13 @@
+@charset 'UTF-8';
+
+body {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+
+button {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
