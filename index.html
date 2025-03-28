@@ -14,29 +14,31 @@
    <!-- <body class="d-flex justify-content-center align-content-center">
     <h1>Teste Bootstrap</h1>
     <button class="btn btn-outline-danger"><i class="bi bi-exclamation-triangle"></i></button>-->
-    <body class="bg-[url(fundo-credit2.jpg)] bg-center h-screen flex items-center justify-center flex-col">
+    <body class="bg-[url(fundo-credit.jpg)] lg:bg-[url(fundo-credit2.jpg)] bg-right-top h-screen flex items-center justify-center flex-col">
 
         
-        <div class="flex flex-col w-auto px-15 pb-8 pt-5 rounded-md justify-center items-center bg-black/80">
-               <h1 class="italic text-white font-bold text-center flex flex-row justify-center gap-2">Veja se o seu cartão foi clonado <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
-                   <path stroke-linecap="round" stroke-linejoin="round" d="M14.857 17.082a23.848 23.848 0 0 0 5.454-1.31A8.967 8.967 0 0 1 18 9.75V9A6 6 0 0 0 6 9v.75a8.967 8.967 0 0 1-2.312 6.022c1.733.64 3.56 1.085 5.455 1.31m5.714 0a24.255 24.255 0 0 1-5.714 0m5.714 0a3 3 0 1 1-5.714 0M3.124 7.5A8.969 8.969 0 0 1 5.292 3m13.416 0a8.969 8.969 0 0 1 2.168 4.5" />
-                 </svg>
-                  </h1>
-        <form action="" class="rounded-10">
-            <fieldset class="text-white g-10 flex flex-col gap-1 flex items-center mt-2">
+        <div class="hover:shadow-orange-300/40 shadow-yellow-300/40 shadow-xl flex flex-col w-auto px-15 pb-8 pt-5 rounded-md justify-center items-center w-auto backdrop-blur-lg bg-black/20">
+               
+            <h1 class="italic text-yellow-300 text-xl font-bold text-center flex flex-row justify-center gap-2">Veja se o seu cartão foi clonado <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M14.857 17.082a23.848 23.848 0 0 0 5.454-1.31A8.967 8.967 0 0 1 18 9.75V9A6 6 0 0 0 6 9v.75a8.967 8.967 0 0 1-2.312 6.022c1.733.64 3.56 1.085 5.455 1.31m5.714 0a24.255 24.255 0 0 1-5.714 0m5.714 0a3 3 0 1 1-5.714 0M3.124 7.5A8.969 8.969 0 0 1 5.292 3m13.416 0a8.969 8.969 0 0 1 2.168 4.5" />
+                </svg>
+             </h1>
 
-                <p class="">Insira seu nome completo:</p> <input class="bg-white/30 w-50 rounded-full text-center hover:text-black hover:bg-gradient-to-r hover:to-orange-900/30 hover:from-yellow-500/30" type="text" name="" id="" placeholder="Jacinto Pinto de Oliveira" required>
+            <form action="resultado.html" class="rounded-10">
+                <fieldset class="text-white gap-4 flex flex-col flex items-center mt-2">
 
-                <p>Insira seu CPF:</p> <input type="number" name="" id="" class="bg-white/30 w-50 rounded-full text-center hover:text-black hover:bg-gradient-to-r hover:to-orange-900/30 hover:from-yellow-500/30" placeholder="123.456.789-01">
+                    <p class="backdrop-blur-md bg-gradient-to-r from-white/20 to-black/20 rounded-sm p-1 group">Insira seu nome completo: <input class=" w-50 rounded-full text-center group-hover:text-black group-hover:bg-gradient-to-r group-hover:to-orange-900/30 group-hover:from-yellow-500/30" type="text" name="" id="" placeholder="Jacinto Pinto de Oliveira" required></p> 
 
-                <p>Insira o número do seu cartão de crédito:</p> <input class="bg-white/30 w-50 rounded-full text-center hover:text-black hover:bg-gradient-to-r hover:to-orange-900/30 hover:from-yellow-500/30" type="border number" name="" id="" placeholder="0000 0000 0000 0000" maxlenght="16" minlength="16" required>
+                    <p class="backdrop-blur-md bg-gradient-to-r from-white/20 to-black/20 rounded-sm p-1 group">Insira seu CPF: <input type="number" name="" id="" class=" w-50 rounded-full text-center group-hover:text-black group-hover:bg-gradient-to-r group-hover:to-orange-900/30 group-hover:from-yellow-500/30" placeholder="123.456.789-01"></p> 
 
-                <p>Insira o código de segurança:</p> <input class="hover:text-black hover:bg-gradient-to-r hover:to-orange-900/30 hover:from-yellow-500/30 bg-white/30 w-50 rounded-full text-center" type="number" name="" id="" placeholder="123" maxlength="3" required>
+                    <p class="backdrop-blur-md bg-gradient-to-r from-white/20 to-black/20 rounded-sm p-1 group">Insira o número do seu cartão de crédito: <input class=" w-50 rounded-full text-center group-hover:text-black group-hover:bg-gradient-to-r group-hover:to-orange-900/30 group-hover:from-yellow-500/30" type="border number" name="" id="" placeholder="0000 0000 0000 0000" maxlenght="16" minlength="16" required></p> 
+
+                    <p class="backdrop-blur-md bg-gradient-to-r from-white/20 to-black/20 rounded-sm p-1 group">Insira o código de segurança: <input class="group-hover:text-black group-hover:bg-gradient-to-r group-hover:to-orange-900/30 group-hover:from-yellow-500/30 w-50 rounded-full text-center" type="number" name="" id="" placeholder="123" maxlength="3" required></p> 
                 
-                <input class="font-bold hover:text-orange-300 hover:to-orange-900/30 hover:from-yellow-500/30 bg-gradient-to-r from-yellow-300/50 to-orange-500/50 m-auto mt-4 w-70 h-10 rounded-md text-center" type="submit" value="Verificar">
+                    <input class="font-bold hover:text-orange-300 hover:to-orange-900/30 hover:from-yellow-500/30 bg-gradient-to-r from-yellow-300/50 to-orange-500/50 m-auto mt-4 w-70 h-10 rounded-md text-center" type="submit" value="Verificar">
                 
-            </fieldset>
-        </form>
-    </div>
+                </fieldset>
+            </form>
+        </div>
     </body>
 </html>
